@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicJam", "Assembly-CSharp-firstpass.csproj", "{7C94041F-39A0-58F4-745F-058455EC107C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicJam", "Assembly-CSharp.csproj", "{F5B92549-E124-D11E-9E9B-07D377B290BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicJam", "Assembly-CSharp-Editor-firstpass.csproj", "{3DAA07EF-0516-E8DC-592D-8AD05C4836EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C94041F-39A0-58F4-745F-058455EC107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C94041F-39A0-58F4-745F-058455EC107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C94041F-39A0-58F4-745F-058455EC107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C94041F-39A0-58F4-745F-058455EC107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B92549-E124-D11E-9E9B-07D377B290BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B92549-E124-D11E-9E9B-07D377B290BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B92549-E124-D11E-9E9B-07D377B290BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B92549-E124-D11E-9E9B-07D377B290BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DAA07EF-0516-E8DC-592D-8AD05C4836EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAA07EF-0516-E8DC-592D-8AD05C4836EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAA07EF-0516-E8DC-592D-8AD05C4836EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAA07EF-0516-E8DC-592D-8AD05C4836EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
