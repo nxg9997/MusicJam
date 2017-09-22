@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 52
+  controlID: 76
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 135
+  controlID: 9
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 86
+  controlID: 125
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -337,7 +337,7 @@ MonoBehaviour:
     y: 92
     width: 448
     height: 690
-  m_ScrollPosition: {x: 0, y: 60}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 100
@@ -381,19 +381,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Audio
+    - Assets/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Audio
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Projects\MusicJam\MusicJam
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d6280000
-    m_LastClickedID: 10454
-    m_ExpandedIDs: 0000000014250000e6250000fc26000000ca9a3bffffff7f
+    m_SelectedIDs: ac250000
+    m_LastClickedID: 9644
+    m_ExpandedIDs: 0000000010250000e2250000fc26000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -421,7 +421,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000014250000e6250000fc260000
+    m_ExpandedIDs: 0000000010250000e2250000fc260000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -579,14 +579,14 @@ MonoBehaviour:
     width: 1001
     height: 1046
   m_SceneLighting: 1
-  lastFramingTime: 1374.8852670490894
+  lastFramingTime: 119.54399853909528
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.5822137, y: 0.82145405, z: 1.5882242}
+    m_Target: {x: -13.865064, y: 37.462616, z: -54.033768}
     speed: 2
-    m_Value: {x: 0.5822137, y: 0.82145405, z: 1.5882242}
+    m_Value: {x: -13.865064, y: 37.462616, z: -54.033768}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -609,13 +609,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.16043961, y: -0.3738738, z: 0.06584464, w: -0.91110003}
+    m_Target: {x: 0.20860098, y: -0.037828077, z: 0.008075992, w: 0.97720945}
     speed: 2
-    m_Value: {x: -0.16043963, y: -0.37387383, z: 0.06584464, w: -0.9111001}
+    m_Value: {x: 0.20860632, y: -0.037829045, z: 0.008076198, w: 0.9772344}
   m_Size:
-    m_Target: 6.3452353
+    m_Target: 141.6672
     speed: 2
-    m_Value: 6.3452353
+    m_Value: 141.6672
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -654,9 +654,9 @@ MonoBehaviour:
     height: 448
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e2250000
-    m_LastClickedID: 0
-    m_ExpandedIDs: e0fbffffe2fbffff00000000a2270000
+    m_SelectedIDs: 4ccfffff
+    m_LastClickedID: -12468
+    m_ExpandedIDs: e2fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
