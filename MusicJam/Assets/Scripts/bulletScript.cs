@@ -9,6 +9,7 @@ public class bulletScript : MonoBehaviour {
 	public GameObject fpc;
 	public int bulletSpeed;
 	public AudioClip fired;
+	public bool EL1 = false;
 
 	// Use this for initialization
 	void Start () {
@@ -24,7 +25,7 @@ public class bulletScript : MonoBehaviour {
 	/// Method for shooting bullets, checks if left mouse button is clicked, if it is, a bullet instance is created, and the bullet is propelled in the direction the player is facing
 	/// </summary>
 	void Shoot(){
-		if (Input.GetButtonDown("Fire1")) {
+		if (Input.GetButtonDown("Fire1") && EL1) {
 			Debug.Log ("Shot");
 			//AudioSource.PlayClipAtPoint (fired, fpc.transform.position);
 			GameObject projectile = Instantiate (bullet, new Vector3(fpc.transform.position.x, fpc.transform.position.y, fpc.transform.position.z), fpc.transform.rotation) as GameObject;

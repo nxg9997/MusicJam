@@ -10,9 +10,15 @@ public class bulletCollisions : MonoBehaviour {
 	public AudioClip explosionSound;
 	public GameObject blood;
 
+    private GameObject player;
+    private ScannerEffectDemo scanner;
+
 	// Use this for initialization
 	void Start () {
-		//counter = GameObject.Find ("counter").GetComponent<countScript> ();
+        //counter = GameObject.Find ("counter").GetComponent<countScript> ();
+        player = GameObject.Find("Player");
+        scanner = player.GetComponentInChildren<ScannerEffectDemo>();
+        Debug.Log("Test");
 	}
 	
 	// Update is called once per frame
@@ -27,7 +33,8 @@ public class bulletCollisions : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		Debug.Log ("hit");
 		AudioSource.PlayClipAtPoint (explosionSound, transform.position);
-		Destroy (gameObject);
+        scanner.isHit = true;
+        Destroy (gameObject);
 
 	}
 }
