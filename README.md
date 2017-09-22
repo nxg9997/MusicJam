@@ -3,12 +3,12 @@ Repository for Music Game Jam
 
 ## The Team
 * __Nathan Glick__
-..* Game Director
-..* Programmer
-..* Level Designer
+⋅⋅* Game Director
+⋅⋅* Programmer
+⋅⋅* Level Designer
 * __Max DeGeorge__
-..* Music
-..* Programmer
+⋅⋅* Music
+⋅⋅* Programmer
 * __David Liu__
-..* Programmer
-..* Level Designer
+⋅⋅* Programmer
+⋅⋅* Level Designer
