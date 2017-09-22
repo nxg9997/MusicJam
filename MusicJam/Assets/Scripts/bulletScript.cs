@@ -24,7 +24,7 @@ public class bulletScript : MonoBehaviour {
 	/// Method for shooting bullets, checks if left mouse button is clicked, if it is, a bullet instance is created, and the bullet is propelled in the direction the player is facing
 	/// </summary>
 	void Shoot(){
-		if (Input.GetKeyDown(KeyCode.Mouse0)) {
+		if (Input.GetButtonDown("Fire1")) {
 			Debug.Log ("Shot");
 			//AudioSource.PlayClipAtPoint (fired, fpc.transform.position);
 			GameObject projectile = Instantiate (bullet, new Vector3(fpc.transform.position.x, fpc.transform.position.y, fpc.transform.position.z), fpc.transform.rotation) as GameObject;
