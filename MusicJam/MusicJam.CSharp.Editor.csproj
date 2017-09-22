@@ -144,6 +144,7 @@
     <Compile Include="Assets\Scan Effect\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Scan Effect\CREDITS.txt" />
     <None Include="Assets\Scan Effect\Scanner Effect\ScannerEffect.shader" />
     <None Include="Assets\Scan Effect\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
     <None Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
