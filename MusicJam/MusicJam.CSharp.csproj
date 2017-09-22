@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scan Effect\DemoUI\Scannable.cs" />
+    <Compile Include="Assets\Scan Effect\Scanner Effect\ScannerEffect2Demo.cs" />
     <Compile Include="Assets\Scan Effect\Scanner Effect\ScannerEffectDemo.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
@@ -124,6 +125,7 @@
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Scripts\bullet2Collisions.cs" />
     <Compile Include="Assets\Scripts\bulletCollisions.cs" />
     <Compile Include="Assets\Scripts\bulletScript.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
