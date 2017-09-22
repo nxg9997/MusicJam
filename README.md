@@ -2,6 +2,13 @@
 Repository for Music Game Jam
 
 ## The Team
-* Nathan Glick
-* Max DeGeorge
-* David Liu
+* __Nathan Glick__
+..* Game Director
+..* Programmer
+..* Level Designer
+* __Max DeGeorge__
+..* Music
+..* Programmer
+* __David Liu__
+..* Programmer
+..* Level Designer
