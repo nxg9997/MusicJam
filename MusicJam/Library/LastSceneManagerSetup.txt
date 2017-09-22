@@ -1,4 +1,4 @@
 sceneSetups:
-- path: E:/Projects/FPSdemo/Assets/Scenes/main.unity
+- path: Assets/Scenes/main.unity
   isLoaded: 1
   isActive: 1
