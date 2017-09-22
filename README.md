@@ -5,4 +5,3 @@ Repository for Music Game Jam
 * Nathan Glick
 * Max DeGeorge
 * David Liu
-* Jordan Malachek
