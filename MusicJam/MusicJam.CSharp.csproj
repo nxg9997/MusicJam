@@ -133,6 +133,7 @@
     <Compile Include="Assets\Scripts\debugScript.cs" />
     <Compile Include="Assets\Scripts\rogueEmitterScript.cs" />
     <Compile Include="Assets\Scripts\startUp.cs" />
+    <Compile Include="Assets\Scripts\switchScript.cs" />
     <Compile Include="Assets\Scripts\terrainManager.cs" />
     <Compile Include="Assets\Scripts\upgradeStation.cs" />
   </ItemGroup>
