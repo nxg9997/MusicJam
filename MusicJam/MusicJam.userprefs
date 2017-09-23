@@ -1,15 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\bulletScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\switchScript.cs">
     <Files>
       <File FileName="Assets\Scripts\terrainManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\bulletCollisions.cs" Line="33" Column="45" />
-      <File FileName="Assets\Scripts\bulletScript.cs" Line="18" Column="29" />
-      <File FileName="Assets\Scripts\changeScene.cs" Line="16" Column="23" />
-      <File FileName="Assets\Scripts\upgradeStation.cs" Line="33" Column="14" />
+      <File FileName="Assets\Scripts\bulletCollisions.cs" Line="36" Column="30" />
+      <File FileName="Assets\Scripts\bulletScript.cs" Line="54" Column="4" />
+      <File FileName="Assets\Scripts\changeScene.cs" Line="15" Column="5" />
+      <File FileName="Assets\Scripts\upgradeStation.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\rogueEmitterScript.cs" Line="32" Column="30" />
-      <File FileName="Assets\Scripts\RESND.cs" Line="15" Column="18" />
+      <File FileName="Assets\Scripts\RESND.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\startUp.cs" Line="19" Column="31" />
+      <File FileName="Assets\Scripts\bullet2Collisions.cs" Line="34" Column="37" />
+      <File FileName="Assets\Scripts\switchScript.cs" Line="31" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
