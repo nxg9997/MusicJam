@@ -125,11 +125,15 @@
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Scripts\RESND.cs" />
     <Compile Include="Assets\Scripts\bullet2Collisions.cs" />
     <Compile Include="Assets\Scripts\bulletCollisions.cs" />
     <Compile Include="Assets\Scripts\bulletScript.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
     <Compile Include="Assets\Scripts\debugScript.cs" />
+    <Compile Include="Assets\Scripts\rogueEmitterScript.cs" />
+    <Compile Include="Assets\Scripts\startUp.cs" />
+    <Compile Include="Assets\Scripts\switchScript.cs" />
     <Compile Include="Assets\Scripts\terrainManager.cs" />
     <Compile Include="Assets\Scripts\upgradeStation.cs" />
   </ItemGroup>

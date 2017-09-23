@@ -10,9 +10,10 @@ public class changeScene : MonoBehaviour {
 		
 	}
 
-    void OnCollisionEnter(Collision collision)
+	void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        if(collision.collider.name == "Player")
+		//Debug.Log ("colliding!");
+        if(hit.gameObject.name == "warp")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
