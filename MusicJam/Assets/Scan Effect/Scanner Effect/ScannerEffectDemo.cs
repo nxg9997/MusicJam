@@ -6,6 +6,7 @@ public class ScannerEffectDemo : MonoBehaviour
 {
 	public Transform ScannerOrigin;
 	public Material EffectMaterial;
+    public Material EffectMaterial2;
 	public float ScanDistance;
 
     public bool isHit = false;
