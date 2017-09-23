@@ -87,6 +87,10 @@
      <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
      <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
      <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Scripts\Level 7\doorReceiver.cs" />
+     <Compile Include="Assets\Scripts\Level 7\pillar.cs" />
+     <Compile Include="Assets\Scripts\Level 8\pillarScript.cs" />
+     <Compile Include="Assets\Scripts\Level 8\simonScript.cs" />
      <Compile Include="Assets\Scripts\RESND.cs" />
      <Compile Include="Assets\Scripts\bullet2Collisions.cs" />
      <Compile Include="Assets\Scripts\bulletCollisions.cs" />

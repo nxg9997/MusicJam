@@ -13,6 +13,8 @@ public class bulletCollisions : MonoBehaviour {
     private GameObject player;
     private ScannerEffectDemo scanner;
 
+	private GameObject pillar;
+
 	// Use this for initialization
 	void Start () {
         //counter = GameObject.Find ("counter").GetComponent<countScript> ();
@@ -32,7 +34,13 @@ public class bulletCollisions : MonoBehaviour {
 	void OnCollisionEnter(Collision collision){
 		AudioSource.PlayClipAtPoint (explosionSound, transform.position);
         scanner.isHit = true;
-        Destroy (gameObject);
+		//if (!collision.collider.name.Contains("pillar")){
+			//pillar = collision.collider.GetComponentInParent<GameObject>();
+			//collision.collider.gameObject.GetComponentInParent<pillarScript> ().hit = true;
+			//Debug.Log ("hit pillar");
+			Destroy (gameObject);
+		//}
+        
 
 	}
 }
