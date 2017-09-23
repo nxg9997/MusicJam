@@ -12,7 +12,7 @@ public class changeScene : MonoBehaviour {
 
 	void OnControllerColliderHit(ControllerColliderHit hit)
     {
-		Debug.Log ("colliding!");
+		//Debug.Log ("colliding!");
         if(hit.gameObject.name == "warp")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

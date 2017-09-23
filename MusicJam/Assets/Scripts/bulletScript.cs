@@ -49,10 +49,10 @@ public class bulletScript : MonoBehaviour {
 		}
         if(Input.GetButtonDown("Fire2") && ELA)
         {
-            GameObject projectile = Instantiate(bullet2, new Vector3(fpc1.transform.position.x, fpc1.transform.position.y, fpc1.transform.position.z), fpc1.transform.rotation) as GameObject;
-            projectile.transform.rotation = new Quaternion(fpc1.transform.rotation.x, 90, fpc1.transform.rotation.z, fpc1.transform.rotation.w);
+            GameObject projectile2 = Instantiate(bullet2, new Vector3(fpc2.transform.position.x, fpc2.transform.position.y, fpc2.transform.position.z), fpc2.transform.rotation) as GameObject;
+            projectile2.transform.rotation = new Quaternion(fpc2.transform.rotation.x, 90, fpc2.transform.rotation.z, fpc2.transform.rotation.w);
 
-            projectile.GetComponent<Rigidbody>().AddForce(fpc1.transform.forward * bulletSpeed);
+            projectile2.GetComponent<Rigidbody>().AddForce(fpc2.transform.forward * bulletSpeed);
         }
 	}
 }

@@ -31,7 +31,7 @@ public class bullet2Collisions : MonoBehaviour {
 	/// </summary>
 	/// <param name="collision">Collision.</param>
 	void OnCollisionEnter(Collision collision){
-		Debug.Log ("hit");
+		Debug.Log (collision.collider.name);
 		//AudioSource.PlayClipAtPoint (explosionSound, transform.position);
 
         // Only triggers against enemies

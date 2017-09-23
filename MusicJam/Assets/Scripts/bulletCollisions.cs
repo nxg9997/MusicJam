@@ -31,7 +31,7 @@ public class bulletCollisions : MonoBehaviour {
 	/// </summary>
 	/// <param name="collision">Collision.</param>
 	void OnCollisionEnter(Collision collision){
-		Debug.Log ("hit");
+		Debug.Log (collision.collider.name);
 		AudioSource.PlayClipAtPoint (explosionSound, transform.position);
         scanner.isHit = true;
         Destroy (gameObject);
