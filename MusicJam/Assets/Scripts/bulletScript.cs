@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class bulletScript : MonoBehaviour {
 
@@ -16,10 +17,14 @@ public class bulletScript : MonoBehaviour {
 	public bool EL1 = false;
     public bool EL2 = false;
     public bool ELA = false;
+    public bool EL3 = false;
 
-	// Use this for initialization
-	void Start () {
-		
+    // Use this for initialization
+    void Start () {
+        BinaryReader br = new BinaryReader(File.OpenRead("data.dat"));
+        bool upgrade3 = br.ReadBoolean();
+        br.Close();
+        EL3 = upgrade3;
 	}
 	
 	// Update is called once per frame
@@ -32,7 +37,6 @@ public class bulletScript : MonoBehaviour {
 	/// </summary>
 	void Shoot(){
 		if (Input.GetButtonDown("Fire1") && EL1) {
-			Debug.Log ("Shot");
 			//AudioSource.PlayClipAtPoint (fired, fpc.transform.position);
 			GameObject projectile = Instantiate (bullet, new Vector3(fpc1.transform.position.x, fpc1.transform.position.y, fpc1.transform.position.z), fpc1.transform.rotation) as GameObject;
 			projectile.transform.rotation = new Quaternion (fpc1.transform.rotation.x, 90, fpc1.transform.rotation.z, fpc1.transform.rotation.w);
@@ -47,6 +51,14 @@ public class bulletScript : MonoBehaviour {
 			script.maxDistance = 10;
 			EL2 = false;
 		}
+        if(EL3)
+        {
+            GameObject player = GameObject.Find("Player");
+            ScannerEffectDemo script = player.GetComponentInChildren<ScannerEffectDemo>();
+            script.EffectMaterial = script.EffectMaterial2;
+            script.maxDistance = 15;
+            EL3 = false;
+        }
         if(Input.GetButtonDown("Fire2") && ELA)
         {
             GameObject projectile2 = Instantiate(bullet2, new Vector3(fpc2.transform.position.x, fpc2.transform.position.y, fpc2.transform.position.z), fpc2.transform.rotation) as GameObject;
