@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class upgradeStation : MonoBehaviour {
 
@@ -33,6 +34,9 @@ public class upgradeStation : MonoBehaviour {
         if(c3)
         {
             shooter.GetComponent<bulletScript>().EL3 = true;
+            BinaryWriter br = new BinaryWriter(File.OpenWrite("data.dat"));
+            br.Write(true);
+            br.Close();
         }
 	}
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO;
 
 public class bulletScript : MonoBehaviour {
 
@@ -20,7 +21,10 @@ public class bulletScript : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-		
+        BinaryReader br = new BinaryReader(File.OpenRead("data.dat"));
+        bool upgrade3 = br.ReadBoolean();
+        br.Close();
+        EL3 = upgrade3;
 	}
 	
 	// Update is called once per frame
