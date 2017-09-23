@@ -130,6 +130,7 @@
     <Compile Include="Assets\Scripts\bulletScript.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
     <Compile Include="Assets\Scripts\debugScript.cs" />
+    <Compile Include="Assets\Scripts\enemyScript.cs" />
     <Compile Include="Assets\Scripts\terrainManager.cs" />
     <Compile Include="Assets\Scripts\upgradeStation.cs" />
   </ItemGroup>
