@@ -125,6 +125,9 @@
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Scan Effect\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+    <Compile Include="Assets\Scripts\Level 1\EnableAfterEmitter.cs" />
+    <Compile Include="Assets\Scripts\Level 1\FollowTrigger.cs" />
+    <Compile Include="Assets\Scripts\Level 1\LockPlayerPosition.cs" />
     <Compile Include="Assets\Scripts\Level 7\doorReceiver.cs" />
     <Compile Include="Assets\Scripts\Level 7\pillar.cs" />
     <Compile Include="Assets\Scripts\RESND.cs" />
@@ -133,6 +136,9 @@
     <Compile Include="Assets\Scripts\bulletScript.cs" />
     <Compile Include="Assets\Scripts\changeScene.cs" />
     <Compile Include="Assets\Scripts\debugScript.cs" />
+    <Compile Include="Assets\Scripts\narration.cs" />
+    <Compile Include="Assets\Scripts\narrationPlayer.cs" />
+    <Compile Include="Assets\Scripts\narrationTrigger.cs" />
     <Compile Include="Assets\Scripts\rogueEmitterScript.cs" />
     <Compile Include="Assets\Scripts\startUp.cs" />
     <Compile Include="Assets\Scripts\switchScript.cs" />
