@@ -91,6 +91,7 @@
      <Compile Include="Assets\Scripts\Level 7\pillar.cs" />
      <Compile Include="Assets\Scripts\Level 8\pillarScript.cs" />
      <Compile Include="Assets\Scripts\Level 8\simonScript.cs" />
+     <Compile Include="Assets\Scripts\Level 9\timedDoor.cs" />
      <Compile Include="Assets\Scripts\RESND.cs" />
      <Compile Include="Assets\Scripts\bullet2Collisions.cs" />
      <Compile Include="Assets\Scripts\bulletCollisions.cs" />
